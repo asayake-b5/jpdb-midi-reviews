@@ -1,14 +1,11 @@
 * JPDB Midi Reviewer
 Review on jpdb by using MIDI!
 ** Motivation
-** How to use :ATTACH:
-:PROPERTIES:
-:ID:       0213868c-c72b-418a-a938-0e596c48c9b8
-:END:
+** How to use
 - Install tampermonkey
 - Enable script
 - Allow jpdb to autoplay audio or you won't hear the autoplay audio anymore. eg. on firefox:
-  [[attachment:_20230508_153449screenshot.png]]
+  [[./screenshot.png]]
 - Look at console on the review page to see the list of midi inputs and keep in mind the number in front of the one you want
 - Change `startLoggingMIDIInput(midi, 2)` to whateve the number of the correct number is for you
 - (Optional): Change the notes in onMidiMessage if you want to use something else, default is C-E because it looks the same as the review screen but if you use an EWI or midi guitar or something maybe you want something else.
